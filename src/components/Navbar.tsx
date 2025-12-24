@@ -20,7 +20,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="w-full bg-white shadow-sm border-b">
+    <header className="w-full bg-white shadow-sm border-b h-20">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between py-3">
 
