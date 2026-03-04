@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const Gallery = () => {
   // Categorized images based on your folder contents

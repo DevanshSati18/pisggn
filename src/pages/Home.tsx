@@ -1,4 +1,3 @@
-import React from 'react';
 import HeroSlider from '../components/ui/HeroSlider';
 import WelcomeSection from '../components/ui/WelcomeSection';
 import LinksAndActivities from '../components/ui/LinksAndActivities';
