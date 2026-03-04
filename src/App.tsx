@@ -11,6 +11,9 @@ import Admission from './pages/Admission';
 import Academic from './pages/Academic';
 import Contact from './pages/Contact';
 import Footer from './components/layout/Footer';
+import Faculty from './pages/Faculty';
+import Calender from './pages/Calender';
+import Download from './pages/Download';
 
 function App() {
   return (
@@ -29,6 +32,10 @@ function App() {
           <Route path="/admission" element={<Admission />} />
           <Route path="/academic" element={<Academic />} />
           <Route path="/contact" element={<Contact />} />
+
+          <Route path="/faculty" element={<Faculty/>} />
+          <Route path="/calendar" element={<Calender/>} />
+          <Route path="/download" element={<Download />} />
         </Routes>
       </main>
       <Footer/>
