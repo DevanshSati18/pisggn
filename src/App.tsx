@@ -14,12 +14,17 @@ import Footer from './components/layout/Footer';
 import Faculty from './pages/Faculty';
 import Calender from './pages/Calender';
 import Download from './pages/Download';
+import Mandatory from './pages/Mandetory';
+import OnlineFeePayment from './pages/OnlineFee';
+import FloatingSocials from './pages/FloatingSocials';
 
 function App() {
   return (
     <Router>
       {/* Navbar sits here so it stays fixed on every page */}
       <Navbar />
+
+      <FloatingSocials/>
       
       {/* Main content area where pages will render */}
       <main className="min-h-screen">
@@ -36,6 +41,8 @@ function App() {
           <Route path="/faculty" element={<Faculty/>} />
           <Route path="/calendar" element={<Calender/>} />
           <Route path="/download" element={<Download />} />
+          <Route path="/mandatory" element={<Mandatory />} />
+          <Route path="/onlinefee" element={<OnlineFeePayment />} />
         </Routes>
       </main>
       <Footer/>
